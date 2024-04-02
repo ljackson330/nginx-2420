@@ -141,3 +141,8 @@ Run the following command to start the nginx service:
 Enable nginx to start on boot:
 
 `systemctl enable nginx`
+
+
+
+
+![image](https://github.com/ljackson330/nginx-2420/assets/153872676/140124f4-6026-4143-b7bd-91947a668798)
