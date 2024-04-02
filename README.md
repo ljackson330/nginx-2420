@@ -62,7 +62,7 @@ At this point, the server is staged for nginx to be configured and deployed.
 Create a new server block configuration for the site page. This are configuration files that are stored in `/etc/nginx/sites-available/nginx-2420`. We will create a new server block for this site, with the absolute path of `/etc/nginx/sites-available/nginx-2420` by running the following command:
 `vim /etc/nginx/sites-available/nginx-2420`
 
-In this file, enter the following configuration details:
+In this file, enter the following configuration details. Make sure to replace `your_server_ip` with your droplet's public IP address.
 
 ```
 # New server block
@@ -140,4 +140,4 @@ Run the following command to start the nginx service:
 
 Enable nginx to start on boot:
 
-`systemctl enable nginx`readme
+`systemctl enable nginx`
