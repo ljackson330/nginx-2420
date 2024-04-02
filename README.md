@@ -89,6 +89,8 @@ We now have a valid nginx configuration file that is set up to serve our index.h
 
 `ln -s /etc/nginx/sites-available/nginx-2420 /etc/nginx/sites-enabled`
 
+Additionally, ensure there is no conflicting server block in `/etc/nginx/nginx.conf`. I had to comment out a server block.
+
 **systemd configuration**
 
 We will use systemd as our service manager to handle running nginx and in turn our website. It uses "service files" to define and configure services we'd like it to handle. System-wide service files (like our nginx service) are stored in `/etc/systemd/system` directory. Create your nginx service file with the following command:
