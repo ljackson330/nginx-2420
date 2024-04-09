@@ -67,7 +67,7 @@ Inspect the service status to ensure it started correctly and is running:
 
 ## Nginx configuration
 
-To reverse proxy requests from `http://droplet_ip/hello` and `http://droplet_ip/echo` to the service which is running at `127.0.0.1:8080`, we need to create a new nginx server block in /etc/nginx/sites-available:
+To reverse proxy requests from `http://droplet_ip/hello` and `http://droplet_ip/echo` to the service which is running at `127.0.0.1:8080`, we need to create a new nginx server block in `/etc/nginx/sites-available`:
 
 `sudo vim /etc/nginx/sites-available/hello-server`
 
