@@ -8,6 +8,10 @@ When connected, use `put` to upload the file from your local computer to the rem
 
 `put Downloads/hello-server`
 
+Exit sftp:
+
+`quit`
+
 Once the binary has been uploaded to your server, move it to an appropriate location such as `/usr/local/bin/hello-server`:
 
 `sudo mv hello-server /usr/local/bin/hello-server`
