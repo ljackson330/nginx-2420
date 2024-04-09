@@ -151,5 +151,6 @@ http://159.203.26.85/echo
 
 The output should look as follows:
 
-![image](https://github.com/ljackson330/nginx-2420/assets/153872676/a4d4ddbd-49e3-46c6-ba60-963a9a04c6e0)
+![image](https://github.com/ljackson330/nginx-2420/assets/153872676/c4599729-8b59-4bde-90a9-09e1ff98458c)
+
 
