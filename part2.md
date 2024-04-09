@@ -35,7 +35,7 @@ After=network.target
 
 [Service]
 Type=simple
-ExecStart=/usr/local/bin/hello-service
+ExecStart=/usr/local/bin/hello-server
 Restart=on-failure
 
 [Install]
@@ -82,7 +82,7 @@ server {
         proxy_set_header X-Forwarded-Proto $scheme;  # Set protocol header to original protocol (http)
     }
 
-    location /hey {  # Handle requests for URI path "/echo"
+    location /echo {  # Handle requests for URI path "/echo"
         proxy_pass http://127.0.0.1:8080/echo;  # Proxy requests to http://127.0.0.1:8080/echo
         proxy_set_header Host $host;  # Set Host header to Host header from original request
         proxy_set_header X-Real-IP $remote_addr;  # Set X-Real-IP header to client's IP address
